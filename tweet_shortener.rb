@@ -23,3 +23,9 @@ def word_substituter(tweet)
     end
     tweet_array.join(" ")
 end
+
+def build_tweet_shortener(tweets)
+  tweets.map do|tweet|
+    puts word_substituter(tweet)
+  end
+end
