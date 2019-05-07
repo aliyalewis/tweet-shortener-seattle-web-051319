@@ -31,7 +31,7 @@ def bulk_tweet_shortener(tweets)
 end
 
 def selective_tweet_shortener(tweets)
-  if tweets > 140
+  if tweets < 140
     return tweets
   end
 end
